@@ -22,3 +22,4 @@
         android:id="@+id/ch4_3_tv"
         android:layout_height="wrap_content" />
 </LinearLayout>
+
