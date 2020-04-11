@@ -12,11 +12,10 @@ import android.widget.ToggleButton;
 
 import java.util.ArrayList;
 
+import static android.R.id.list;
+
 public class Ch7Activity1 extends AppCompatActivity {
-
-
-
-        @Override
+    @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.layout_ch7_1);
@@ -61,9 +60,9 @@ public class Ch7Activity1 extends AppCompatActivity {
             list.add("spinnerItem3");
             //实例化（数组适配器)
             //系统样式
-            //ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,list);//参数：上下文(当前所在页面)，样式，数组
+            ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1,list);//参数：上下文(当前所在页面)，样式，数组
             //自定义的样式
-            ArrayAdapter arrayAdapter=new ArrayAdapter(this,R.layout.layout_spinner_item,list);
+
             //设置到spinner中
             spinner.setAdapter(arrayAdapter);
             //处理事件
@@ -81,7 +80,7 @@ public class Ch7Activity1 extends AppCompatActivity {
                 }
             });
 
-        }//oncreate
+        }
 
 
     }

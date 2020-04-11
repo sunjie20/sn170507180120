@@ -9,7 +9,6 @@
         android:id="@+id/ch7_2_lv"
         android:layout_height="wrap_content"></ListView>
 
-
     <Button
         android:layout_width="wrap_content"
         android:text="refresh"
