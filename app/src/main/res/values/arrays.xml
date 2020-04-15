@@ -10,6 +10,14 @@
         <item>str2</item>
         <item>str3</item>
     </string-array>
+    <string-array name="countries">
+        <item>Spain</item>
+        <item>China</item>
+        <item>Belgium</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>France</item>
+    </string-array>
     <array name="commonArr">
         <item>@drawable/img</item>
         <item>aaa</item>
