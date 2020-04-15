@@ -178,6 +178,7 @@ public class Ch9Activity2 extends AppCompatActivity {
             product.put("category2",list);
 
             //第三个类别
+
             list=new ArrayList();
             map=new HashMap();
             map.put("name","category3_prod1");

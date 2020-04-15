@@ -14,6 +14,7 @@ public class Ch9Activity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_ch9_1);
 
+
         Resources resources=getResources();
         String[] countries=resources.getStringArray(R.array.countries);
 

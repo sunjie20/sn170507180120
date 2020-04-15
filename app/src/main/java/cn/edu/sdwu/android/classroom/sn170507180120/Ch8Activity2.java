@@ -10,5 +10,6 @@ public class Ch8Activity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_ch8_8);
 
+
     }
 }
